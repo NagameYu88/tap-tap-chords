@@ -1,0 +1,11 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+   top:  0px;
+   left: 100px;
+  gap: 10px;
+  min-height: 100svh;
+}

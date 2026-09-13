@@ -1,0 +1,153 @@
+.CM_E3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff6b4;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.CM_E3:active {
+  transform: scale(1.16); }
+
+.Dsus2_E3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #ceefcf;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.Dsus2_E3:active {
+  transform: scale(1.16); }
+
+.Em_E3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #9ed1d8;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.Em_E3:active {
+  transform: scale(1.16); }
+
+.FM_F3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #a7b5d2;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.FM_F3:active {
+  transform: scale(1.16); }
+
+.Gsus4_D3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #c0a3cf;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.Gsus4_D3:active {
+  transform: scale(1.16); }
+
+.Am_E3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffb4c7;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.Am_E3:active {
+  transform: scale(1.16); }
+
+.BbM_D3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd8c7;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.BbM_D3:active {
+  transform: scale(1.16); }
