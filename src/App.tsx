@@ -7,6 +7,8 @@ import "./App.css";
  import { AmonE3 } from "./KyeC";
  import { BbMonD3 } from "./KyeC";
 
+ import { IV1 } from "./Left30";
+
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Gsus4onD3 />
       <AmonE3 />
       <BbMonD3 />
+
+      <IV1 />
     </>
 
  
