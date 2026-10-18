@@ -4,7 +4,7 @@ import useSound from 'use-sound';
 
 var Kye = "C";
 
-var x = "7th";
+var x = "C7";
 
 
 import F_F2 from './assets/C/1 IV/F/F_F2.mp3';
@@ -118,7 +118,7 @@ export function IV4() {
     case "C": 
       switch (x) {
         case "Norm": var y = "C3"; [play] = useSound(F_C3, {volume:1}); break;  
-        case "7th": var y = "/"; [play] = useSound(FM7_C3, {volume:1}); break;   
+        case "7th": var y = "C3"; [play] = useSound(FM7_C3, {volume:1}); break;   
         case "sus4": var y = "/"; break;
         case "7sus4": var y = "/"; break;
         case "add9": var y = "C3"; var [play] = useSound(Fadd9_C3, {volume:1}); break;
