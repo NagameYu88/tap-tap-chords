@@ -7,7 +7,7 @@ import "./App.css";
  import { AmonE3 } from "./KyeC";
  import { BbMonD3 } from "./KyeC";
 
- import { IV1 } from "./Left30";
+ import { IV1 } from "./Left-I";
 
 
 function App() {
