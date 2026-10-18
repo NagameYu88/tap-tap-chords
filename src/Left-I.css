@@ -1,4 +1,4 @@
-.IV1 and .IV2 and .IV3 and .IV4 and .IV5 {
+.IV1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -18,4 +18,92 @@
   color: #000;
   transition: transform 0.1s ease-in-out; }
 .IV1:active {
+  transform: scale(1.16); }
+
+.IV2 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #a7b5d2;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.IV2:active {
+  transform: scale(1.16); }
+
+.IV3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #a7b5d2;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.IV3:active {
+  transform: scale(1.16); }
+
+.IV4 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #a7b5d2;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.IV4:active {
+  transform: scale(1.16); }
+
+.IV5 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #a7b5d2;
+  gap: 4px;
+  width: 60px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 50px;
+  border-color: #000;
+  border-width: 0px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #000;
+  transition: transform 0.1s ease-in-out; }
+.IV5:active {
   transform: scale(1.16); }
