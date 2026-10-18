@@ -4,7 +4,7 @@ import useSound from 'use-sound';
 
 var Kye = "C";
 
-var x = "C7";
+var x = "7";
 
 
 import F_F2 from './assets/C/1 IV/F/F_F2.mp3';
