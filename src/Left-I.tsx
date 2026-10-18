@@ -1,4 +1,4 @@
-import "./Left30.css";
+import "./Left-I.css";
 import useSound from 'use-sound';
 
 import F_F2 from './assets/C/1 IV/F/F_F2.mp3';
@@ -12,7 +12,7 @@ import bA_bA2 from './assets/C/1 IV/bA/bA_bA2.mp3';
 
 var Kye = "C";
 
-var x = "Norm";
+var x = "7";
 
 
 export function IV1() {
