@@ -1,13 +1,13 @@
 #root {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   align-content: space-between;
   position: relative;
-   top:  8svh;
-   left: 60px;
+   top:  8dvh;
+   left: 6px;
   gap: 8px;
-  height: 100svh;
+  height: 100dvh;
 }
