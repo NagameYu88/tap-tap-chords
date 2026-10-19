@@ -6,8 +6,8 @@
   align-items: center;
   align-content: space-between;
   position: relative;
-   top:  8dvh;
+   top:  12dvh;
    left: 4dvw;
   gap: 8px;
-  height: 100dvh;
+  height: 16dvh;
 }
