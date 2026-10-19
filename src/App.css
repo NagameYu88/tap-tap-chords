@@ -6,9 +6,9 @@
   align-items: center;
   align-content: space-between;
   position: relative;
-   top:  12dvh;
+   top:  14dvh;
    left: 8dvw;
   gap: 8px;
-  height: 40dvh;
+  height: 72dvh;
   width: 36dvw;
 }
