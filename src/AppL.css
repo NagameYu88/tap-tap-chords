@@ -8,8 +8,8 @@
   position: relative;
    top:  16dvh;
    bottom: 84dvh;
-   left: 2dvw;
-  gap: 5px;
+   left: 0dvw;
+  gap: 4px;
   height: 68dvh;
   width: 36dvw;
 }
