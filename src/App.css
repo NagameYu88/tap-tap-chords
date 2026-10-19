@@ -4,11 +4,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
+  align-content: space-between;
   position: relative;
    top:  14dvh;
    left: 3dvw;
   gap: 8px;
-  height: 68dvh;
+  height: 70dvh;
   width: 36dvw;
 }
