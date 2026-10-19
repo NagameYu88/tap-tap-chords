@@ -1,4 +1,4 @@
-import "./App.css";
+import "./AppL.css";
 
 import { IV1 } from "./Left-I";
 import { IV2 } from "./Left-I";
@@ -6,7 +6,7 @@ import { IV3 } from "./Left-I";
 import { IV4 } from "./Left-I";
 import { IV5 } from "./Left-I";
 
-function App() {
+function AppL() {
   return (
     <>
       <IV1 />
@@ -51,4 +51,4 @@ function App() {
 }
 
  
-export default App;
+export default AppL;
