@@ -38,7 +38,14 @@ export function IV1() {
       <button 
         className="IV1"   type="button"   onMouseUp={() => play()}>
       {y}</button>
-    );  } else {}
+    );  }
+  else {
+    return (
+      <button 
+        className="IV1"   type="button"   style={{ visibility: 'hidden' }}>
+      {y}</button>
+    );
+  }
 }
 
 import Fadd9_G2 from './assets/C/1 IV/F add9/Fadd9_G2.mp3';
@@ -71,9 +78,15 @@ export function IV2() {
       <button 
         className="IV2"   type="button"   onMouseUp={() => play()}>
       {y}</button>
-    );  } else {}
+    );  }
+  else {
+    return (
+      <button 
+        className="IV2"   type="button"   style={{ visibility: 'hidden' }}>
+      {y}</button>
+    );
+  }
 }
-
 import F_A2 from './assets/C/1 IV/F/F_A2.mp3';
 import Fadd9_A2 from './assets/C/1 IV/F add9/Fadd9_A2.mp3';
 import C7_bB2 from './assets/C/1 IV/C 7/C7_bB2.mp3';
@@ -103,7 +116,14 @@ export function IV3() {
       <button 
         className="IV3"   type="button"   onMouseUp={() => play()}>
       {y}</button>
-    );  } else {}
+    );  }
+  else {
+    return (
+      <button 
+        className="IV3"   type="button"   style={{ visibility: 'hidden' }}>
+      {y}</button>
+    );
+  }
 }
 
 import F_C3 from './assets/C/1 IV/F/F_C3.mp3';
@@ -137,7 +157,14 @@ export function IV4() {
       <button 
         className="IV4"   type="button"   onMouseUp={() => play()}>
       {y}</button>
-    );  } else {}
+    );  }
+  else {
+    return (
+      <button 
+        className="IV4"   type="button"   style={{ visibility: 'hidden' }}>
+      {y}</button>
+    );
+  }
 }
 
 import Edim_bD2 from './assets/C/1 IV/bF dim/Edim_bD3.mp3';
@@ -167,5 +194,12 @@ export function IV5() {
       <button 
         className="IV5"   type="button"   onMouseUp={() => play()}>
       {y}</button>
-    );  } else {}
+    );  }
+  else {
+    return (
+      <button 
+        className="IV5"   type="button"   style={{ visibility: 'hidden' }}>
+      {y}</button>
+    );
+  }
 }
