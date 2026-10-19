@@ -4,10 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  align-content: space-between;
+  align-content: center;
   position: relative;
    top:  14dvh;
-   left: 2dvw;
+   left: 4dvw;
   gap: 8px;
   height: 68dvh;
   width: 36dvw;
