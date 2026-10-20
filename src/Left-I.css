@@ -7,10 +7,7 @@
   width: 52px;
   height: 34px;
   font-size: 13px;
-  border-radius: 50px;
-  border-color: #000;
-  border-width: 0px;
-  border-style:solid;
+  flex-shrink:1;
   cursor: pointer;
   font-family: "Zen Kaku Gothic New", "Segoe UI",
                "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
@@ -29,10 +26,7 @@
   width: 52px;
   height: 34px;
   font-size: 13px;
-  border-radius: 50px;
-  border-color: #000;
-  border-width: 0px;
-  border-style:solid;
+  flex-shrink:1;
   cursor: pointer;
   font-family: "Zen Kaku Gothic New", "Segoe UI",
                "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
@@ -51,10 +45,7 @@
   width: 52px;
   height: 34px;
   font-size: 13px;
-  border-radius: 50px;
-  border-color: #000;
-  border-width: 0px;
-  border-style:solid;
+  flex-shrink:1;
   cursor: pointer;
   font-family: "Zen Kaku Gothic New", "Segoe UI",
                "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
@@ -73,7 +64,7 @@
   width: 52px;
   height: 34px;
   font-size: 13px;
-
+  flex-shrink:1;
   cursor: pointer;
   font-family: "Zen Kaku Gothic New", "Segoe UI",
                "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
@@ -92,10 +83,7 @@
   width: 52px;
   height: 34px;
   font-size: 13px;
-  border-radius: 50px;
-  border-color: #000;
-  border-width: 0px;
-  border-style:solid;
+  flex-shrink:1;
   cursor: pointer;
   font-family: "Zen Kaku Gothic New", "Segoe UI",
                "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
