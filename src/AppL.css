@@ -8,8 +8,8 @@
   position: relative;
    top:  14dvh;
    left: 0px;
-  row-gap: 8px;
-  column-gap: 4px;
-  height: 100dvh;
+  row-gap: 10px;
+  column-gap: 5px;
+  height: 60dvh;
   width: 40dvw;
 }
