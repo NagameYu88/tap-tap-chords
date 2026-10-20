@@ -24,8 +24,8 @@
   position: relative;
    top:  22dvh;
    left: 72dvw;
-  row-gap: 14px;
-  column-gap: 12px;
+  row-gap: 16px;
+  column-gap: 20px;
   position: absolute;
   height: 56dvh;
   width: 24dvw;
