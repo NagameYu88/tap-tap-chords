@@ -170,22 +170,27 @@ export function I4() {
   }
 }
 
-import Edim_bD2 from './assets/C/1 IV/bF dim/Edim_bD3.mp3';
-import bA_bE3 from './assets/C/1 IV/bA/bA_bE3.mp3';
+import C_E3 from './assets/C/2 I/C/C_E3.mp3';
+import Csus4_F3 from './assets/C/2 I/C sus4/Csus4_F3.mp3';
+import Cadd9_D3 from './assets/C/2 I/C add9/Cadd9_D3.mp3';
+import G7_D3 from './assets/C/2 I/G 7/G7_D3.mp3';
+import Gaug_E3 from './assets/C/2 I/G aug/Gaug_E3.mp3';
+import Bdim_F3 from './assets/C/2 I/bC dim/Bdim_F3.mp3';
+import bE_bE3 from './assets/C/2 I/bE/bE_bE3.mp3';
 
 export function I5() {
   switch (Kye) {
     case "C": 
       switch (x) {
-        case "Norm": var y = "/"; break;  
-        case "7th": var y = "/"; ; break;   
-        case "sus4": var y = "/"; break;
+        case "Norm": var y = "E3"; var [play] = useSound(C_E3, {volume:1}); break;  
+        case "7th": var y = "/"; break;  
+        case "sus4": var y = "F3"; var [play] = useSound(Csus4_F3, {volume:1}); break;
         case "7sus4": var y = "/"; break;
-        case "add9": var y = "/"; ; break;
-        case "7": var y = "/"; ; break;
-        case "aug": var y = "/"; break;
-        case "dim": var y = "_bD2"; var [play] = useSound(Edim_bD2, {volume:1}); break; 
-        case "Par.m": var y = "bE3"; var [play] = useSound(bA_bE3, {volume:1}); break;               
+        case "add9": var y = "D3"; var [play] = useSound(Cadd9_D3, {volume:1}); break;
+        case "7": var y = "D3"; var [play] = useSound(G7_D3, {volume:1}); break;
+        case "aug": var y = "E3"; var [play] = useSound(Gaug_E3, {volume:1}); break;   
+        case "dim": var y = "F3"; var [play] = useSound(Bdim_F3, {volume:1}); break;
+        case "Par.m": var y = "bE3"; var [play] = useSound(bE_bE3, {volume:1}); break;                   
         default: var y = "/"; break;
       } break;
 

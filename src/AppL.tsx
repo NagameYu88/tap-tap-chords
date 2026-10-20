@@ -10,7 +10,7 @@ import { I1 } from "./Left-II";
 import { I2 } from "./Left-II";
 import { I3 } from "./Left-II";
 import { I4 } from "./Left-II";
-
+import { I5 } from "./Left-II";
 
 function AppL() {
   return (
@@ -25,31 +25,31 @@ function AppL() {
       <I2 />
       <I3 />
       <I4 />
+      <I5 />
+
+      <IV1 />
+      <IV2 />
+      <IV3 />
+      <IV4 />
+      <IV5 />
+
+      <IV1 />
+      <IV2 />
+      <IV3 />
+      <IV4 />
+      <IV5 />
+
+      <IV1 />
+      <IV2 />
+      <IV3 />
+      <IV4 />
+      <IV5 />
+
       <I1 />
-
-      <IV1 />
-      <IV2 />
-      <IV3 />
-      <IV4 />
-      <IV5 />
-
-      <IV1 />
-      <IV2 />
-      <IV3 />
-      <IV4 />
-      <IV5 />
-
-      <IV1 />
-      <IV2 />
-      <IV3 />
-      <IV4 />
-      <IV5 />
-
-      <IV1 />
-      <IV2 />
-      <IV3 />
-      <IV4 />
-      <IV5 />
+      <I2 />
+      <I3 />
+      <I4 />
+      <I5 />
     </div>
 
   );
