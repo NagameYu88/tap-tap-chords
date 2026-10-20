@@ -10,7 +10,7 @@
   font-weight: bold;
   border-radius: 50px;
   border-color: #5e5300;
-  border-width: 3px;
+  border-width: 5px;
   border-style:solid;
   cursor: pointer;
   font-family: "Zen Kaku Gothic New", "Segoe UI",
@@ -33,7 +33,7 @@
   font-weight: bold;
   border-radius: 50px;
   border-color: #00145e;
-  border-width: 3px;
+  border-width: 5px;
   border-style:solid;
   cursor: pointer;
   font-family: "Zen Kaku Gothic New", "Segoe UI",
@@ -48,15 +48,15 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background: #5e0034;
+  background: #fff;
   gap: 2px;
   width: 52px;
   height: 34px;
   font-size: 13px;
   font-weight: bold;
   border-radius: 50px;
-  border-color: #fff;
-  border-width: 3px;
+  border-color: #5e0034;
+  border-width: 5px;
   border-style:solid;
   cursor: pointer;
   font-family: "Zen Kaku Gothic New", "Segoe UI",
