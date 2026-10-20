@@ -16,17 +16,17 @@
 
 .AppR {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: space-between;
   position: relative;
    top:  15dvh;
-   left: 60dvw;
+   left: 70dvw;
   row-gap: 14px;
-  column-gap: 5px;
+  column-gap: 8px;
   position: absolute;
-  height: 70dvh;
-  width: 30dvw;
+  height: 60dvh;
+  width: 20dvw;
 }

@@ -14,7 +14,7 @@ import C7_E2 from './assets/C/1 IV/C 7/C7_E2.mp3';
 import Caug_E2 from './assets/C/1 IV/C aug/Caug_E2.mp3';
 import Edim_E2 from './assets/C/1 IV/bF dim/Edim_E2.mp3';
 
-export function IV1() {
+export function I1() {
   switch (Kye) {
     case "C": 
       switch (x) {
@@ -54,7 +54,7 @@ import Caug_bA2 from './assets/C/1 IV/C aug/Caug_bA2.mp3';
 import Edim_G2 from './assets/C/1 IV/bF dim/Edim_G2.mp3';
 import bA_bA2 from './assets/C/1 IV/bA/bA_bA2.mp3';
 
-export function IV2() {
+export function I2() {
   switch (Kye) {
     case "C": 
       switch (x) {
@@ -92,7 +92,7 @@ import Fadd9_A2 from './assets/C/1 IV/F add9/Fadd9_A2.mp3';
 import C7_bB2 from './assets/C/1 IV/C 7/C7_bB2.mp3';
 import Edim_bB2 from './assets/C/1 IV/bF dim/Edim_bB2.mp3';
 
-export function IV3() {
+export function I3() {
   switch (Kye) {
     case "C": 
       switch (x) {
@@ -133,7 +133,7 @@ import C7_C3 from './assets/C/1 IV/C 7/C7_C3.mp3';
 import Caug_C3 from './assets/C/1 IV/C aug/Caug_C3.mp3';
 import bA_C3 from './assets/C/1 IV/bA/bA_C3.mp3';
 
-export function IV4() {
+export function I4() {
   switch (Kye) {
     case "C": 
       switch (x) {
@@ -170,7 +170,7 @@ export function IV4() {
 import Edim_bD2 from './assets/C/1 IV/bF dim/Edim_bD3.mp3';
 import bA_bE3 from './assets/C/1 IV/bA/bA_bE3.mp3';
 
-export function IV5() {
+export function I5() {
   switch (Kye) {
     case "C": 
       switch (x) {
