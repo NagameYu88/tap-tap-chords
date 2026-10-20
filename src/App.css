@@ -1,0 +1,31 @@
+.AppL {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  position: relative;
+   top:  15dvh;
+   left: 0px;
+  row-gap: 14px;
+  column-gap: 5px;
+  height: 70dvh;
+  width: 40dvw;
+}
+
+.AppR {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  position: relative;
+   top:  15dvh;
+   left: 60dvw;
+  row-gap: 14px;
+  column-gap: 5px;
+  height: 70dvh;
+  width: 30dvw;
+}

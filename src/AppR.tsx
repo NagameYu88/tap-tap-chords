@@ -1,4 +1,4 @@
-import "./AppR.css";
+import "./App.css";
 
 import { Norm } from "./Right";
 import { Seventh } from "./Right";

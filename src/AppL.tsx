@@ -1,4 +1,4 @@
-import "./AppL.css";
+import "./App.css";
 
 import { IV1 } from "./Left-I";
 import { IV2 } from "./Left-I";
