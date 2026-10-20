@@ -22,11 +22,11 @@
   align-items: center;
   align-content: space-between;
   position: relative;
-   top:  23dvh;
+   top:  25dvh;
    left: 66dvw;
-  row-gap: 15px;
+  row-gap: 14px;
   column-gap: 18px;
   position: absolute;
-  height: 54dvh;
+  height: 50dvh;
   width: 32dvw;
 }

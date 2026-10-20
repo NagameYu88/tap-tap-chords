@@ -8,6 +8,7 @@ import { IV5 } from "./Left-I";
 
 import { I1 } from "./Left-II";
 import { I2 } from "./Left-II";
+import { I3 } from "./Left-II";
 
 function AppL() {
   return (
@@ -22,7 +23,7 @@ function AppL() {
       <I1 />
       <I1 />
       <I2 />
-      <I2 />
+      <I3 />
 
       <IV1 />
       <IV2 />
