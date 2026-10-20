@@ -76,3 +76,10 @@ export function Par() {
 
 
 export { x };
+
+export function White() {
+    return (
+      <button 
+        className="white"   type="button"  style={{ visibility: 'hidden' }} >
+      x</button>
+    ); }

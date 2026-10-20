@@ -9,12 +9,15 @@ import { Dom } from "./Right";
 import { Aug } from "./Right";
 import { Dim } from "./Right";
 import { Par } from "./Right";
+import { White } from "./Right"
 
 function AppR() {
   return (
     <div className="AppR">
+      <White />
       <Norm />
       <Seventh />
+      <White />
       <Sus4 />
       <Seventhsus4 />
       <Add9 />

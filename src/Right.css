@@ -4,9 +4,9 @@
   align-items: center;
   background: #fff;
   gap: 2px;
-  width: 52px;
+  width: 56px;
   height: 34px;
-  font-size: 13px;
+  font-size: 12px;
   border-radius: 50px;
   border-color: #5e5300;
   border-width:2px;
@@ -26,9 +26,10 @@
   align-items: center;
   background: #fff;
   gap: 2px;
-  width: 52px;
+  width: 56px;
   height: 34px;
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: bold;
   border-radius: 50px;
   border-color: #00145e;
   border-width: 2px;
@@ -48,9 +49,31 @@
   align-items: center;
   background: #fff;
   gap: 2px;
-  width: 52px;
+  width: 56px;
   height: 34px;
-  font-size: 13px;
+  font-size: 12px;
+  border-radius: 50px;
+  border-color: #5e0034;
+  border-width: 2px;
+  border-style:solid;
+  cursor: pointer;
+  font-family: "Zen Kaku Gothic New", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui;
+  text-align: center;
+  color: #5e0034;
+  transition: transform 0.1s ease-in-out; }
+.one:active {
+  transform: scale(1.16); }
+
+.white {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 2px;
+  width: 20px;
+  height: 34px;
+  font-size: 12px;
   border-radius: 50px;
   border-color: #5e0034;
   border-width: 2px;
