@@ -10,6 +10,7 @@ import { Aug } from "./Right";
 import { Dim } from "./Right";
 import { Par } from "./Right";
 import { White } from "./Right"
+import { X } from "./Right"
 
 function AppR() {
   return (
@@ -24,6 +25,7 @@ function AppR() {
       <Dom />
       <Aug />
       <Dim />
+      <X />
       <Par />
     </div>
   );
