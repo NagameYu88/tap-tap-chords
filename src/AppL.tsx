@@ -6,6 +6,8 @@ import { IV3 } from "./Left-I";
 import { IV4 } from "./Left-I";
 import { IV5 } from "./Left-I";
 
+import { I1 } from "./Left-II";
+
 function AppL() {
   return (
     <div className="AppL">
@@ -15,11 +17,11 @@ function AppL() {
       <IV4 />
       <IV5 />
 
-      <IV1 />
-      <IV2 />
-      <IV3 />
-      <IV4 />
-      <IV5 />
+      <I1 />
+      <I1 />
+      <I1 />
+      <I1 />
+      <I1 />
 
       <IV1 />
       <IV2 />
