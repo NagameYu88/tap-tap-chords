@@ -1,0 +1,15 @@
+#root {
+  display: flex;
+  flex-direction: reverse-row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  position: relative;
+   top:  15dvh;
+   right: 0px;
+  row-gap: 14px;
+  column-gap: 5px;
+  height: 70dvh;
+  width: 40dvw;
+}

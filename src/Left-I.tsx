@@ -1,11 +1,24 @@
 import "./Left-I.css";
 import useSound from 'use-sound';
-
+import { x } from "./Right";
 
 var Kye = "C";
 
-var x = "dim";
-
+switch (Kye) {
+        case "C": var color = "F"; break;
+        case "bD": var color = "bG"; break;
+        case "D": var color = "G"; break;
+        case "bE": var color = "bA"; break;
+        case "E": var color = "A"; break;
+        case "F": var color = "bB"; break;
+        case "bG": var color = "B"; break;
+        case "G": var color = "C"; break;
+        case "bA": var color = "bD"; break;
+        case "A": var color = "D"; break;
+        case "bB": var color = "bE"; break;
+        case "B": var color = "E"; break;                
+        default: var color = "-"; break;
+      }
 
 import F_F2 from './assets/C/1 IV/F/F_F2.mp3';
 import FM7_F2 from './assets/C/1 IV/F M7/FM7_F2.mp3';
@@ -36,13 +49,13 @@ export function IV1() {
   if (y != "/") {
     return (
       <button 
-        className="IV1"   type="button"   onMouseUp={() => play()}>
+        className={color}   type="button"   onMouseUp={() => play()}>
       {y}</button>
     );  }
   else {
     return (
       <button 
-        className="IV1"   type="button"   style={{ visibility: 'hidden' }}>
+        className="hid"   type="button"   style={{ visibility: 'hidden' }}>
       {y}</button>
     );
   }
@@ -76,13 +89,13 @@ export function IV2() {
   if (y != "/") {
     return (
       <button 
-        className="IV2"   type="button"   onMouseUp={() => play()}>
+        className={color}   type="button"   onMouseUp={() => play()}>
       {y}</button>
     );  }
   else {
     return (
       <button 
-        className="IV2"   type="button"   style={{ visibility: 'hidden' }}>
+        className="hid"   type="button"   style={{ visibility: 'hidden' }}>
       {y}</button>
     );
   }
@@ -114,13 +127,13 @@ export function IV3() {
   if (y != "/") {
     return (
       <button 
-        className="IV3"   type="button"   onMouseUp={() => play()}>
+        className={color}   type="button"   onMouseUp={() => play()}>
       {y}</button>
     );  }
   else {
     return (
       <button 
-        className="IV3"   type="button"   style={{ visibility: 'hidden' }}>
+        className="hid"   type="button"   style={{ visibility: 'hidden' }}>
       {y}</button>
     );
   }
@@ -155,13 +168,13 @@ export function IV4() {
   if (y != "/") {
     return (
       <button 
-        className="IV4"   type="button"   onMouseUp={() => play()}>
+        className={color}   type="button"   onMouseUp={() => play()}>
       {y}</button>
     );  }
   else {
     return (
       <button 
-        className="IV4"   type="button"   style={{ visibility: 'hidden' }}>
+        className="hid"   type="button"   style={{ visibility: 'hidden' }}>
       {y}</button>
     );
   }
@@ -192,13 +205,13 @@ export function IV5() {
   if (y != "/") {
     return (
       <button 
-        className="IV5"   type="button"   onMouseUp={() => play()}>
+        className={color}   type="button"   onMouseUp={() => play()}>
       {y}</button>
     );  }
   else {
     return (
       <button 
-        className="IV5"   type="button"   style={{ visibility: 'hidden' }}>
+        className="hid"   type="button"   style={{ visibility: 'hidden' }}>
       {y}</button>
     );
   }

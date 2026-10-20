@@ -46,9 +46,7 @@ function AppL() {
       <IV5 />
     </>
 
- 
   );
 }
-
  
 export default AppL;
