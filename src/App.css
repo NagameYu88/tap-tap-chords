@@ -23,8 +23,8 @@
   align-content: space-between;
   position: relative;
    top:  25dvh;
-   left: 66dvw;
-  row-gap: 14px;
+   left: 64dvw;
+  row-gap: 12px;
   column-gap: 18px;
   position: absolute;
   height: 50dvh;
