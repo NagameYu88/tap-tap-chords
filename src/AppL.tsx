@@ -8,7 +8,7 @@ import { IV5 } from "./Left-I";
 
 function AppL() {
   return (
-    <>
+    <div className="AppL">
       <IV1 />
       <IV2 />
       <IV3 />
@@ -44,7 +44,7 @@ function AppL() {
       <IV3 />
       <IV4 />
       <IV5 />
-    </>
+    </div>
 
   );
 }

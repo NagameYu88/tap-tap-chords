@@ -12,7 +12,7 @@ import { Par } from "./Right";
 
 function AppR() {
   return (
-    <>
+    <div className="AppR">
       <Norm />
       <Seventh />
       <Sus4 />
@@ -22,7 +22,7 @@ function AppR() {
       <Aug />
       <Dim />
       <Par />
-    </>
+    </div>
   );
 }
 

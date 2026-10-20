@@ -1,4 +1,4 @@
-#root {
+.AppR {
   display: flex;
   flex-direction: reverse-row;
   flex-wrap: wrap;
