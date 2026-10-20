@@ -50,25 +50,25 @@ export function I1() {
 import C_G2 from './assets/C/2 I/C/C_G2.mp3';
 import CM7_G2 from './assets/C/2 I/C M7/CM7_G2.mp3';
 import Csus4_G2 from './assets/C/2 I/C sus4/Csus4_G2.mp3';
-import Edim_G2 from './assets/C/.mp3';
-import C7_G2 from './assets/C/1 IV/C 7/C7_G2.mp3';
-import Caug_bA2 from './assets/C/1 IV/C aug/Caug_bA2.mp3';
-import Edim_G2 from './assets/C/1 IV/bF dim/Edim_G2.mp3';
-import bA_bA2 from './assets/C/1 IV/bA/bA_bA2.mp3';
+import Cadd9_G2 from './assets/C/2 I/C add9/Cadd9_G2.mp3';
+import G7_G2 from './assets/C/2 I/G 7/G7_G2.mp3';
+import Gaug_bA2 from './assets/C/2 I/G aug/Gaug_bA2.mp3';
+import Bdim_bA2 from './assets/C/2 I/bC dim/Bdim_bA2.mp3';
+import bE_G2 from './assets/C/2 I/bE/bE_G2.mp3';
 
 export function I2() {
   switch (Kye) {
     case "C": 
       switch (x) {
-        case "Norm": var y = "/"; break;   
-        case "7th": var y = "/"; break;   
-        case "sus4": var y = "/"; break;
+        case "Norm": var y = "G2"; var [play] = useSound(C_G2, {volume:1}); break;  
+        case "7th": var y = "G2"; var [play] = useSound(CM7_G2, {volume:1}); break;  
+        case "sus4": var y = "G2"; var [play] = useSound(Csus4_G2, {volume:1}); break;
         case "7sus4": var y = "/"; break;
-        case "add9": var y = "G2"; var [play] = useSound(Fadd9_G2, {volume:1}); break;
-        case "7": var y = "G2"; var [play] = useSound(C7_G2, {volume:1}); break;
-        case "aug": var y = "bA2"; var [play] = useSound(Caug_bA2, {volume:1}); break;   
-        case "dim": var y = "G2"; var [play] = useSound(Edim_G2, {volume:1}); break;
-        case "Par.m": var y = "bA2"; var [play] = useSound(bA_bA2, {volume:1}); break;               
+        case "add9": var y = "G2"; var [play] = useSound(Cadd9_G2, {volume:1}); break;
+        case "7": var y = "G2"; var [play] = useSound(G7_G2, {volume:1}); break;
+        case "aug": var y = "bA2"; var [play] = useSound(Gaug_bA2, {volume:1}); break;   
+        case "dim": var y = "bA2"; var [play] = useSound(Bdim_bA2, {volume:1}); break;
+        case "Par.m": var y = "G2"; var [play] = useSound(bE_G2, {volume:1}); break;               
         default: var y = "/"; break;
       } break;
 
