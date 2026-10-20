@@ -1,24 +1,11 @@
-import "./Left-II.css";
+import "./Left.css";
 import useSound from 'use-sound';
 import { x } from "./Right";
 
-var Kye = "C";
+var Kye : string = "C";
 
-switch (Kye) {
-        case "C": var color = "F"; break;
-        case "bD": var color = "bG"; break;
-        case "D": var color = "G"; break;
-        case "bE": var color = "bA"; break;
-        case "E": var color = "A"; break;
-        case "F": var color = "bB"; break;
-        case "bG": var color = "B"; break;
-        case "G": var color = "C"; break;
-        case "bA": var color = "bD"; break;
-        case "A": var color = "D"; break;
-        case "bB": var color = "bE"; break;
-        case "B": var color = "E"; break;                
-        default: var color = "-"; break;
-      }
+
+var color : string = Kye;
 
 import F_F2 from './assets/C/1 IV/F/F_F2.mp3';
 import FM7_F2 from './assets/C/1 IV/F M7/FM7_F2.mp3';

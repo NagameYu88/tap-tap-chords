@@ -26,6 +26,7 @@
    left: 60dvw;
   row-gap: 14px;
   column-gap: 5px;
+  position: absolute;
   height: 70dvh;
   width: 30dvw;
 }

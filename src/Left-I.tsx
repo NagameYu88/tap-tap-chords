@@ -1,4 +1,4 @@
-import "./Left-I.css";
+import "./Left.css";
 import useSound from 'use-sound';
 import { x } from "./Right";
 
