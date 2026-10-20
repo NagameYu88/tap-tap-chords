@@ -6,11 +6,11 @@
   align-items: center;
   align-content: space-between;
   position: relative;
-   top:  15dvh;
+   top:  14dvh;
    left: 0px;
   row-gap: 14px;
   column-gap: 5px;
-  height: 70dvh;
+  height: 72dvh;
   width: 40dvw;
 }
 
