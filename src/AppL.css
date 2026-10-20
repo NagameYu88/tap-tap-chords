@@ -7,8 +7,8 @@
   align-content: space-between;
   position: relative;
    top:  16dvh;
-   left: 5px;
-  gap: 100px;
+   left: 0px;
+  gap: 6px;
   height: 68dvh;
   width: 42dvw;
 }
