@@ -23,10 +23,10 @@
   align-content: space-between;
   position: relative;
    top:  22dvh;
-   left: 72dvw;
+   left: 68dvw;
   row-gap: 16px;
-  column-gap: 20px;
+  column-gap: 18px;
   position: absolute;
   height: 56dvh;
-  width: 24dvw;
+  width: 28dvw;
 }
