@@ -8,8 +8,8 @@ var Kye : string = "C";
 var color : string = Kye;
 
 import C_E2 from './assets/C/2 I/C/C_E2.mp3';
-import FM7_F2 from './assets/C/1 IV/F M7/FM7_F2.mp3';
-import Fadd9_F2 from './assets/C/1 IV/F add9/Fadd9_F2.mp3';
+import Csus4_F2 from './assets/C/2 I/C sus4/Csus4_F2.mp3';
+import Cadd9_E2 from './assets/C/2 I/C add9/Cadd9_E2.mp3';
 import C7_E2 from './assets/C/1 IV/C 7/C7_E2.mp3';
 import Caug_E2 from './assets/C/1 IV/C aug/Caug_E2.mp3';
 import Edim_E2 from './assets/C/1 IV/bF dim/Edim_E2.mp3';
@@ -19,10 +19,10 @@ export function I1() {
     case "C": 
       switch (x) {
         case "Norm": var y = "E2"; var [play] = useSound(C_E2, {volume:1}); break;
-        case "7th": var y = "F2"; var [play] = useSound(FM7_F2, {volume:1}); break;
-        case "sus4": var y = "/"; break;
+        case "7th": var y = "/"; break;
+        case "sus4": var y = "F2"; var [play] = useSound(Csus4_F2, {volume:1}); break;
         case "7sus4": var y = "/"; break;
-        case "add9": var y = "F2"; var [play] = useSound(Fadd9_F2, {volume:1}); break;
+        case "add9": var y = "E2"; var [play] = useSound(Cadd9_E2, {volume:1}); break;
         case "7": var y = "E2"; var [play] = useSound(C7_E2, {volume:1}); break;
         case "aug": var y = "E2"; var [play] = useSound(Caug_E2, {volume:1}); break;   
         case "dim": var y = "E2"; var [play] = useSound(Edim_E2, {volume:1}); break;
