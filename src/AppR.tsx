@@ -25,8 +25,8 @@ function AppR() {
       <Dom />
       <Aug />
       <Dim />
-      <X />
       <Par />
+      <X />
     </div>
   );
 }

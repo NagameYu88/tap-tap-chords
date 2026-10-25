@@ -86,7 +86,5 @@ export function White() {
 
 export function X() {
     return (
-      <button 
-        className="one"   type="button">
-      {x}</button>
+    <>{x}</>
     ); }
