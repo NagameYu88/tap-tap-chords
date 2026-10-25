@@ -1,6 +1,5 @@
 import "./Left.css";
 import useSound from 'use-sound';
-import { useState } from 'react';
 import { x } from "./Right";
 
 var Kye = "C";
