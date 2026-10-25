@@ -84,7 +84,13 @@ export function White() {
       x</button>
     ); }
 
+
+var z : "-"
+
 export function X() {
     return (
-    <>{x}</>
+    <button
+    className="one" type="button"
+    onMouseDown={() => {var z : "x" }}
+    >{z}</button>
     ); }
